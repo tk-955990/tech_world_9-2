@@ -8,7 +8,7 @@ public class Story {
 		 // —EÒ‚Ì¶¬
 
 		Hero h = new Hero();
-		h.setName("ro");
+		h.setName("null");
 		h.setHp(-200);
 		h.setAt(50);
 		h.setDf(80);
@@ -37,7 +37,7 @@ public class Story {
 		 // –‚–@g‚¢‚Ì¶¬
 
 		Magician mg = new Magician();
-		mg.setName("medeia00000");
+		mg.setName("medeia");
 		mg.setHp(100);
 		mg.setAt(30);
 		mg.setMp(-50);

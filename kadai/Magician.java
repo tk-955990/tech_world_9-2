@@ -14,7 +14,7 @@ public class Magician {
 		return this.name;
 	}
 	public void setName(String name) {
-		if(name==null) {
+		if(name=="null") {
 			throw new IllegalArgumentException("–¼‘O‚ªnull‚Å‚·");
 		}if ((name.length()<3)||(name.length()>10)){
 			throw new IllegalArgumentException("•¶š”‚Í3•¶šˆÈãA‚P‚O•¶šˆÈ‰º‚Å“ü—Í‚µ‚Ä‚­‚¾‚³‚¢");
